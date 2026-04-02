@@ -37,4 +37,8 @@ if __name__ == "__main__":
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8888)
     args = parser.parse_args()
+<<<<<<< HEAD
     run_audio_client(args.host, args.port)
+=======
+    run_audio_client(args.host, args.port)
+>>>>>>> 96db6d3ae6d9fb35e27665e473743c89a1fbe45d

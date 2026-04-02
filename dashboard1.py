@@ -225,4 +225,8 @@ if __name__ == "__main__":
     parser.add_argument("--data-file", default="data.json")
     parser.add_argument("--refresh",   type=float, default=1.0)
     args = parser.parse_args()
+<<<<<<< HEAD
     run_dashboard(args.data_file, args.refresh)
+=======
+    run_dashboard(args.data_file, args.refresh)
+>>>>>>> 96db6d3ae6d9fb35e27665e473743c89a1fbe45d
