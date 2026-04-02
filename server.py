@@ -115,9 +115,3 @@ if __name__ == "__main__":
                         help="Simulated packet loss rate (0.0 – 1.0)")
     parser.add_argument("--data-file", default="data.json", help="Output JSON file path")
     args = parser.parse_args()
-
-<<<<<<< HEAD
-    run_server(args.host, args.port, args.loss_rate, args.data_file)
-=======
-    run_server(args.host, args.port, args.loss_rate, args.data_file)
->>>>>>> 96db6d3ae6d9fb35e27665e473743c89a1fbe45d
